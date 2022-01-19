@@ -1,0 +1,6 @@
+{
+  "DriverType": "Local",
+  "BrowserType": "Chrome",
+  "DockerURL": "http://localhost:4444/wd/hub",
+  "DefaultTimeoutInSeconds": 30
+}

@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FRB.Cleveland.AutomatedTests", "FRB.Cleveland.AutomatedTests\FRB.Cleveland.AutomatedTests.csproj", "{8FC2A75D-3B14-424E-A2B5-633D9C00BABC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FRB.Cleveland.AutomatedTests.Lib", "FRB.Cleveland.AutomatedTests.Lib\FRB.Cleveland.AutomatedTests.Lib.csproj", "{0292843F-98BA-48F1-BA59-8041057D4FD8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Wrapper", "Wrapper", "{A045841E-8372-46BD-804C-5EB0A4A1BBF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FRB.Cleveland.AutomatedTests.Selenium", "FRB.Cleveland.AutomatedTests.Selenium\FRB.Cleveland.AutomatedTests.Selenium.csproj", "{8ED7F695-86C2-43A0-BC32-DE09B9F3FFF3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8FC2A75D-3B14-424E-A2B5-633D9C00BABC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FC2A75D-3B14-424E-A2B5-633D9C00BABC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FC2A75D-3B14-424E-A2B5-633D9C00BABC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FC2A75D-3B14-424E-A2B5-633D9C00BABC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0292843F-98BA-48F1-BA59-8041057D4FD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0292843F-98BA-48F1-BA59-8041057D4FD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0292843F-98BA-48F1-BA59-8041057D4FD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0292843F-98BA-48F1-BA59-8041057D4FD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8ED7F695-86C2-43A0-BC32-DE09B9F3FFF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8ED7F695-86C2-43A0-BC32-DE09B9F3FFF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8ED7F695-86C2-43A0-BC32-DE09B9F3FFF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8ED7F695-86C2-43A0-BC32-DE09B9F3FFF3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0292843F-98BA-48F1-BA59-8041057D4FD8} = {A045841E-8372-46BD-804C-5EB0A4A1BBF5}
+		{8ED7F695-86C2-43A0-BC32-DE09B9F3FFF3} = {A045841E-8372-46BD-804C-5EB0A4A1BBF5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {80D77A39-0FE1-4400-BC5F-93554CE76FF4}
+	EndGlobalSection
+EndGlobal
